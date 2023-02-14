@@ -1,9 +1,11 @@
-/*
+
 .container {
     width: 60vw;
     border: 2px dashed green;
+    position: relative;
+    overflow: hidden;
 }
-*/
+
 
 .box {
     width: 200px;
@@ -18,21 +20,36 @@
 
 .static {
     background-color: #ff1d00;
+    position: static;
+    top: 20%;
+    Left: 20%;
 }
 
 .fixed {
     background-color: #ffeb00;
     color: black;
+    position: fixed;
+    top: 20%;
+    right: 20%;
 }
 
 .sticky {
     background-color: #ff9ecf;
+    position: sticky;
+    top: 20%;
+    right: 20%;
 }
 
 .relative {
     background-color: #1fd81f;
+    position: relative;
+    top: 40%;
+    right: 10%;
 }
 
 .absolute {
     background-color: #0180fc;
+    position: sticky;
+    top: 35%;
+    right: 35%;
 }
